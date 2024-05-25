@@ -1,0 +1,1 @@
+# advertorial_generator
