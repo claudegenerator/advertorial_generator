@@ -61,7 +61,7 @@ def run_claude(api_key: str, source_file_contents: str, template_file):
             st.write("Output generated successfully!")
             
         st.download_button(
-            label="Download Text File",
+            label=f"Download {filename}",
             data=prompt4_answer.encode(),
             file_name=f"{filename}_output.txt",
             mime="text/plain"
